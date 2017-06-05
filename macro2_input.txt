@@ -1,0 +1,13 @@
+# Measurement of Friday 26 March
+# Experiment 2 Physics Lab
+
+1   5   2
+2   11  2
+3   17  3
+4   22  4
+5   28  4
+6   35  4
+7   40  4
+8   45  4
+9   50  4
+10  60  5
