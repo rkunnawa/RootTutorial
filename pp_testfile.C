@@ -11,11 +11,11 @@ Requires pp_2013_data_testfile.root to be in the same directory
 
 void pp_testfile(){
 
-  TFile * _file0 = TFile::Open("pp_2013_data_testfile.root");
+  TFile * _raghav = TFile::Open("pp_2013_data_testfile.root");
 
   TCanvas * c = new TCanvas("c","4 Plots",1);
   c -> Divide(2,2);
-  TTree *ak3t = (TTree*)_file0 -> Get("ak3PFJetAnalyzer/t");
+  TTree *ak3t = (TTree*)_raghav -> Get("ak3PFJetAnalyzer/t");
   TH1F * hPt = new TH1F("hPt","Jet p_{T} (GeV/c)",100,0,1000);
   TH1F * hEta = new TH1F("hEta","Jet #eta (rad)",60,-2,2);
   TH1F * hPhi = new TH1F ("hPhi","Jet #phi (rad)",60,-3.14,3.14);
